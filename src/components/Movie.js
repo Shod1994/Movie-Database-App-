@@ -7,6 +7,7 @@ function Movie({ movie }) {
       <h2>{movie.Title}</h2>
       <p>Year: {movie.Year}</p>
       <p>Type: {movie.Type}</p>
+      {console.log(movie.Genre)}
     </div>
   );
 }
