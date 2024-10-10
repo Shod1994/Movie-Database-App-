@@ -1,17 +1,19 @@
-.movie-card {
-    border: 1px solid #ccc;
-    padding: 16px;
-    border-radius: 8px;
-    background-color: #f4f4f4;
-  }
-  
-  .title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .genre {
-    color: #888;
-    font-style: italic;
-  }
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: white; /* Error messages will appear in red */
+}
