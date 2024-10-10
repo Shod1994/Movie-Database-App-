@@ -54,7 +54,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Movie Database</h1>
+      <h1>Shod's Movie Database</h1>
       <SearchBar onSearch={(query) => handleSearch(query)} />
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
