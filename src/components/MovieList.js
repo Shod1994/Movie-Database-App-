@@ -4,7 +4,9 @@ import '../MovieList.css'; // Make sure to import the CSS file for the grid layo
 function MovieList({ movies, onMovieSelect }) {
   return (
     <div className="movie-list">
-      {movies.map((movie) => (
+      {movies
+      .sort((a,b) => b.Year - a.Year)
+      .map((movie) => (
         <div 
           className="movie-item" 
           key={movie.imdbID} 
