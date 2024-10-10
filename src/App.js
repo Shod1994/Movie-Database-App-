@@ -11,7 +11,7 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   const handleSearch = (searchQuery, imdbID = null) => {
-    const apiKey = '2992d381'; // Replace with your OMDb API key
+    const apiKey = process.env.REACT_APP_API_KEY;; // Replace with your OMDb API key
     let url;
 
     // Determine the URL based on whether an imdbID is provided
