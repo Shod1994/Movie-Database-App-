@@ -66,3 +66,16 @@ This project uses the TMDb API. To set it up:
 ```bash
 REACT_APP_TMDB_API_KEY=your_api_key_here
 ```
+
+## Contributing 
+Contuributions are Welcome! If you'd like to improve the project: 
+1. Fork the repository. 
+2. Create a new branch (feature/new-feature)
+3. Commit your changes
+4. Push the branch and create a pull request. 
+
+## License 
+This Project is license under the MIT License. 
+
+## Contact 
+For questions or suggestions, reach out via Shod1994 or my email lashodj@gmail.com 
