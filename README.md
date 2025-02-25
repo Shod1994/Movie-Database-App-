@@ -47,17 +47,22 @@ This project is a movie database application designed to store and manage movie 
 ```bash
 npm start
 ```
+
 ## Usage
+
 - Visit http://localhost:300 in your browser.
-- Search for movies using the search bar 
+- Search for movies using the search bar
 - Click on a movie to view details
 - Add movies to your watchlist
 
 ## API Configuration
-This project uses the TMDb API. To set it up: 
+
+This project uses the TMDb API. To set it up:
+
 1. Sign up at TMDb.
 2. Get your API Key from the developer section.
-3. Create a .env file and add: 
-```bash 
+3. Create a .env file and add:
+
+```bash
 REACT_APP_TMDB_API_KEY=your_api_key_here
 ```
