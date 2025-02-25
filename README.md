@@ -3,6 +3,7 @@
 A project to store and display information about movies, including title, genre, release date, and other relevant details.
 
 ## Table of Contents
+
 1. [Introduction](#introduction)
 2. [Technologies Used](#technologies-used)
 3. [Installation](#installation)
@@ -23,9 +24,26 @@ This project is a movie database application designed to store and manage movie 
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/shod1994/movie-database.git
 
-2. Navigate to the project folder: 
+   ```
+
+2. Navigate to the project folder:
+
 ```bash
-cd movie-database
+   cd movie-database
+```
+
+3. Install dependencies:
+
+```bash
+    npm install
+```
+
+4. Start the development server:
+
+```bash
+npm start
+```
