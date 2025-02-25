@@ -25,10 +25,10 @@ This project is a movie database application designed to store and manage movie 
 
 1. Clone the repository:
 
-   ```bash
+```bash
    git clone https://github.com/shod1994/movie-database.git
 
-   ```
+```
 
 2. Navigate to the project folder:
 
