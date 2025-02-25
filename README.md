@@ -17,11 +17,15 @@ This project is a movie database application designed to store and manage movie 
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: (Include any backend technologies you're using, like Node.js, Express, etc.)
-- **Database**: (Specify the database you're using, e.g., MongoDB, MySQL, etc.)
+- **Backend**: Node.js , Express
+- **API**: Uses The Movie Database (TMDb) API
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/movie-database.git
+   git clone https://github.com/shod1994/movie-database.git
+
+2. Navigate to the project folder: 
+```bash
+cd movie-database
