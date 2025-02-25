@@ -1,87 +1,27 @@
-Movie Database Project
+# Movie Database
 
-Description
+A project to store and display information about movies, including title, genre, release date, and other relevant details.
 
-The Movie Database Project is a web application that allows users to browse, search, and manage a collection of movies. Users can view movie details, search by title, filter by genre, and add movies to a personal watchlist.
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-Features
+## Introduction
 
-Search for movies by title
+This project is a movie database application designed to store and manage movie details. The app allows users to add, edit, and delete movies, and provides a search function to find movies based on different criteria.
 
-Filter movies by genre, year, or rating
+## Technologies Used
 
-View detailed movie information
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: (Include any backend technologies you're using, like Node.js, Express, etc.)
+- **Database**: (Specify the database you're using, e.g., MongoDB, MySQL, etc.)
 
-Add/remove movies from a personal watchlist
+## Installation
 
-Responsive design for desktop and mobile
-
-Tech Stack
-
-Frontend: React, HTML, CSS, JavaScript
-
-Backend: Node.js, Express
-
-Database: MongoDB
-
-API: Uses The Movie Database (TMDb) API
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/movie-database.git
-
-Navigate to the project folder:
-
-cd movie-database
-
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm start
-
-Usage
-
-Visit http://localhost:3000 in your browser.
-
-Search for movies using the search bar.
-
-Click on a movie to view details.
-
-Add movies to your watchlist.
-
-API Configuration
-
-This project uses the TMDb API. To set it up:
-
-Sign up at TMDb
-
-Get your API key from the developer section.
-
-Create a .env file and add:
-
-REACT_APP_TMDB_API_KEY=your_api_key_here
-
-Contributing
-
-Contributions are welcome! If you'd like to improve the project:
-
-Fork the repository
-
-Create a new branch (feature/new-feature)
-
-Commit your changes
-
-Push the branch and create a pull request
-
-License
-
-This project is licensed under the MIT License.
-
-Contact
-
-For questions or suggestions, reach out via [your email or GitHub].
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/movie-database.git
